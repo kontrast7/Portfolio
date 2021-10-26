@@ -1,0 +1,15 @@
+.headerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  width: 57vh;
+}
