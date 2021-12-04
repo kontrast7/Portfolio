@@ -6,7 +6,7 @@ export const Sidebar = () => {
 
         return (
             <div className="sidebar">
-                <h1><Link smooth to="/#start" className="h1_links">Maksim Mashko</Link></h1>
+                <h1><Link smooth to="/#start" className="h1_links">Maksim <br/> Mashko</Link></h1>
                 <p style={{color:'black',fontWeight:'bold'}} className="gmail"> maks.mashko@gmail.com </p>
                 <ul className="sidebar-nav">
                     <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About</Link></li>
