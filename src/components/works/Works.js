@@ -41,7 +41,7 @@ export const Works =() => {
                           <h2>
                             TODO <span>TS/REACT/REDUX</span>
                           </h2>
-                          <img className={classes.img} src={pensil}/>
+                          <img className={classes.img} src={pensil} alt={'todo-img'}/>
                           <p>
                            Lorem
                           </p>
@@ -65,7 +65,7 @@ export const Works =() => {
                           <h2>
                             Social Network <span>TS/REACT/REDUX</span>
                           </h2>
-                          <img className={classes.img} src={pensil}/>
+                          <img className={classes.img} src={pensil} alt={'social-network-img'}/>
                           <p>
                            Lorem
                           </p>
@@ -111,7 +111,7 @@ export const Works =() => {
                         </div>
                         <div className={classes.label}>
                           <h2>Lorem</h2>
-                          <img className={classes.img} src={pensil}/>
+                          <img className={classes.img} src={pensil} alt={'other-img'}/>
                           <p>
                            Lorem
                           </p>

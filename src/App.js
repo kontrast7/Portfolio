@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import About from "./components/about/About";
-import { Works } from "./components/Works/Works";
+import { Works } from "./components/works/Works";
 import { Skills } from "./components/skills/Skills";
 import { Sidebar } from "./components/sidebar/Sidebar";
 import { CarouselImages } from "./components/carousel/CarouselImages";

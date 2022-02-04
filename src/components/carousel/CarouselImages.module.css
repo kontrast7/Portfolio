@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 .image {
   height: 240px;
+  object-fit: cover;
 }
 
 .h1 {

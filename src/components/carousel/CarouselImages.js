@@ -47,7 +47,7 @@ export const CarouselImages = () => {
                 rel="opener noreferrer"
                 target="_blank"
               >
-                VIEW PROJECTS <GoProject />
+                MY PROJECTS <GoProject />
               </a>
             </div>
           </div>
