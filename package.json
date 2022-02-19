@@ -1,24 +1,26 @@
 {
   "name": "portfolio",
-  "homepage": "https://kontrast7.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kontrast7.github.io/Portfolio",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "animate.css": "^3.7.2",
-    "gh-pages": "^2.2.0",
-    "prettier": "^2.5.0",
-    "react": "^16.12.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.12.0",
-    "react-icons": "^3.9.0",
-    "react-responsive-carousel": "^3.1.51",
-    "react-router-dom": "^5.1.2",
-    "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.3.0",
-    "react-scrollable-anchor": "^0.6.1"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-double-marquee": "^1.0.7",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +31,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [

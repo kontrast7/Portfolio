@@ -1,44 +1,29 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
-import About from "./components/about/About";
-import { Works } from "./components/works/Works";
-import { Skills } from "./components/skills/Skills";
-import { Sidebar } from "./components/sidebar/Sidebar";
-import { CarouselImages } from "./components/carousel/CarouselImages";
+import './App.css';
+import Header from "./a0_header/Header";
+import Main from "./a1_main/Main";
+import Vacancy from "./a5_vacansy/Vacancy";
+import Footer from "./a7_footer/Footer";
+import RunningLine from "./a2_runningLine/RunningLine";
+import Projects from "./a4_projects/Projects";
+import Skills from "./a3_skills/Skills";
+import Contacts from "./a6_contacts/Contacts";
 
-export const App = () => {
-  return (
-    <Router>
-      <div className="App">
-        <div className="side">
-          <nav className="navbar side navbar-expand-lg navbar-light p-0">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              style={{ zIndex: "1" }}
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <Sidebar />
-            </div>
-          </nav>
+
+
+function App() {
+    return (
+        <div className='App'>
+            <Header/>
+            <Main/>
+            <RunningLine/>
+            <Skills/>
+            <Projects/>
+            <Vacancy/>
+            <Contacts/>
+            <Footer/>
         </div>
-        <div className="main">
-          <div>
-            <CarouselImages />
-          </div>
-          <About />
-          <Skills />
-          <Works />
-        </div>
-      </div>
-    </Router>
-  );
-};
+    );
+}
+
+export default App;
